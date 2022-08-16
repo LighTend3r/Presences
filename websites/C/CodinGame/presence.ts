@@ -14,11 +14,11 @@ presence.on("UpdateData", async () => {
 		presenceData.details = "On the dashboard";
 		presenceData.state = `${
 			document.querySelectorAll(
-				"div[class='home-content'] > div > div > div > div > home > div > home-react > div > div > section > section > div > div > div > div"
+				"div[class='home-content'] > div > div > div > home > div > home-react > div > div > section > section > div > div > div > div"
 			)[0].textContent
 		} - Rank : ${
 			document.querySelectorAll(
-				"div[class='home-content'] > div > div > div > div > home > div > home-react > div > div > section > section > div > div > div > div"
+				"div[class='home-content'] > div > div > div > home > div > home-react > div > div > section > section > div > div > div > div"
 			)[4].textContent
 		}`;
 	} else if (pathname.includes("/training")) {
